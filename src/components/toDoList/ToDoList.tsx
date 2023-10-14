@@ -4,7 +4,7 @@ import "./ToDoList.css";
 import NewToDoItem from "../newToDoItem/NewToDoItem";
 import ToDoFilter from "../toDoFilter/ToDoFilter";
 
-interface item {
+interface Item {
   id: number;
   title: string;
   isCompleted: boolean;
@@ -17,8 +17,8 @@ const defaultTodos = [
 ];
 
 const ToDoList: React.FC = () => {
-  const [todos, setTodos] = useState<item[]>(defaultTodos);
-  const [filterredTodos, setFilterredTodos] = useState<item[]>(todos);
+  const [todos, setTodos] = useState<Item[]>(defaultTodos);
+  const [filterredTodos, setFilterredTodos] = useState<Item[]>(todos);
 
   const [searchItem, setSearchItem] = useState("");
 
