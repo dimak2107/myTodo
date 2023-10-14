@@ -14,7 +14,6 @@ const defaultTodos = [
   { title: "Make breakfast", isCompleted: true, id: 1 },
   { title: "Do warm-ups", isCompleted: false, id: 2 },
   { title: "Read the book", isCompleted: false, id: 3 },
-  { title: "Read the book2", isCompleted: false, id: 4 },
 ];
 
 const ToDoList: React.FC = () => {
