@@ -1,0 +1,10 @@
+.app__header {
+  color: rgba(33, 235, 215, 0.8);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1rem;
+}

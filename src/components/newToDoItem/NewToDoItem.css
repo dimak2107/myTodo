@@ -1,0 +1,27 @@
+.app__newtodoitem {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.app__newtodoitem-input {
+  width: 75%;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+}
+
+.app__newtodoitem-btn {
+  width: 15%;
+  background-color: blue;
+  color: azure;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}

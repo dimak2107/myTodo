@@ -1,0 +1,42 @@
+.app__todoitem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.app__todoitem-content_btns {
+  padding: 10px;
+  color: aqua;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.app__todoitem-content_btns-delete {
+  color: crimson;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.app__todoitem-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: large;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+
+.app__todoitem-text {
+  color: aqua;
+  font-family: Calibri;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 80%;
+  text-align: left;
+}
