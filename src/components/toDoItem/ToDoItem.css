@@ -5,22 +5,6 @@
   border-bottom: 1px solid whitesmoke;
 }
 
-.app__todoitem-content_btns {
-  padding: 10px;
-  color: aqua;
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-}
-
-.app__todoitem-content_btns-delete {
-  color: crimson;
-  width: 20px;
-  height: 20px;
-  padding: 10px;
-  cursor: pointer;
-}
-
 .app__todoitem-content {
   display: flex;
   flex-direction: row;
